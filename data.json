@@ -1,0 +1,200 @@
+{
+  "profile": {
+    "name": "董志昌",
+    "role": "AI 工程師 / AI 應用開發者",
+    "tagline": "AI 協作開發、資料儀表板、Supabase 整合、GitHub Pages 部署"
+  },
+  "contact": {
+    "phone": "0921-777-911",
+    "email": "johsok@gmail.com",
+    "address": "新北市永和區中正路117號",
+    "education": "長庚大學 物理治療學系",
+    "license": "AI 輔助開發、前端網頁、資料視覺化、Supabase",
+    "language": "台語、國語"
+  },
+  "application": {
+    "desiredPosition": "AI 工程師 / AI 應用開發工程師",
+    "salary": "面議",
+    "availableDate": "可議",
+    "gender": "男",
+    "birthdate": "民國71年11月25日",
+    "heightWeight": "170cm / 67kg",
+    "militaryMarriage": "役畢 / 單身"
+  },
+  "labels": {
+    "phone": "電話",
+    "email": "Email",
+    "address": "地址",
+    "education": "學歷",
+    "license": "能力",
+    "language": "語言"
+  },
+  "sectionTitles": {
+    "summary": "AI 工程摘要",
+    "application": "應徵資訊",
+    "skills": "AI 工程專長",
+    "tools": "AI 與開發工具",
+    "toolsShort": "工具",
+    "jobs": "GitHub 公開作品",
+    "contact": "聯絡資料",
+    "profile": "履歷資料矩陣",
+    "skillMatrix": "技能矩陣",
+    "cases": "作品亮點",
+    "educationLicense": "學歷與能力"
+  },
+  "metrics": [
+    {
+      "value": "7",
+      "label": "公開 GitHub 作品"
+    },
+    {
+      "value": "5+",
+      "label": "AI 協作工具"
+    },
+    {
+      "value": "HTML/JS",
+      "label": "主要開發棧"
+    },
+    {
+      "value": "GitHub Pages",
+      "label": "靜態部署經驗"
+    }
+  ],
+  "summary": [
+    "具備臨床與行政流程背景，近期以 Claude、ChatGPT、Gemini、Cursor、Codex 等 AI 工具進行前端網站、資料儀表板、Supabase 後端整合與 GitHub Pages 部署。公開作品涵蓋美股財報、總體經濟資料、練歌系統、週曆待辦、遊戲集合、施工服務網站與可編輯履歷模板，重點在將需求整理成規格、快速生成可用介面、串接資料來源並反覆調整到可部署。",
+    "本履歷先以公開 repo 作為作品集草稿；非公開作品未列入，後續可再依實際經歷補上團隊角色、模型使用方式、API 成本控管、測試流程與成效數字。"
+  ],
+  "clinicalSkills": [
+    "AI 協作開發與需求規格化",
+    "HTML / CSS / Vanilla JavaScript 單頁應用",
+    "Supabase Auth / Database / RLS 流程",
+    "GitHub Pages 靜態部署",
+    "資料整理與 Dashboard 視覺化",
+    "RWD 介面與使用者流程調整"
+  ],
+  "toolsShort": [
+    "Claude",
+    "ChatGPT",
+    "Gemini",
+    "Cursor",
+    "Codex",
+    "Supabase",
+    "GitHub Pages"
+  ],
+  "toolsFull": [
+    "Claude",
+    "ChatGPT",
+    "Gemini",
+    "Cursor",
+    "Codex",
+    "HTML",
+    "CSS",
+    "Vanilla JavaScript",
+    "Bootstrap",
+    "Supabase Auth",
+    "Supabase Database",
+    "YouTube IFrame API",
+    "Gemini API",
+    "Google Search grounding",
+    "JSON 資料整理",
+    "GitHub Pages"
+  ],
+  "skillBars": [
+    {
+      "label": "AI 工具協作與需求拆解",
+      "width": "92%"
+    },
+    {
+      "label": "前端單頁應用開發",
+      "width": "88%"
+    },
+    {
+      "label": "Supabase 資料流程整合",
+      "width": "82%"
+    },
+    {
+      "label": "資料儀表板與視覺化",
+      "width": "84%"
+    },
+    {
+      "label": "GitHub Pages 部署",
+      "width": "86%"
+    }
+  ],
+  "jobs": [
+    {
+      "period": "2026/07",
+      "company": "Johsok_Resume_PT",
+      "title": "JavaScript / HTML Resume Template",
+      "detail": "多風格互動履歷網站，使用 data.json 驅動內容、theme.js 切換版型、bg.js 動態背景，並提供 dataModify.html 進行資料編輯。",
+      "url": "https://github.com/Johsok/Johsok_Resume_PT",
+      "demo": "https://johsok.github.io/Johsok_Resume_PT/"
+    },
+    {
+      "period": "2026/07",
+      "company": "US-FinanceView",
+      "title": "美股財報小助手",
+      "detail": "深色主題財報資料儀表板，整合 earnings_data.json 與 holidays.json，提供美股財報日期、休市資訊與篩選查看。",
+      "url": "https://github.com/Johsok/US-FinanceView",
+      "demo": "https://johsok.github.io/US-FinanceView/"
+    },
+    {
+      "period": "2026/07",
+      "company": "US-EconomyView",
+      "title": "美國總體經濟數據終端",
+      "detail": "以 economy_data.json 建立總體經濟資料瀏覽介面，支援分類、篩選、變化指標閱讀與深色 terminal 視覺風格。",
+      "url": "https://github.com/Johsok/US-EconomyView",
+      "demo": "https://johsok.github.io/US-EconomyView/"
+    },
+    {
+      "period": "2026/06",
+      "company": "Johsok_KalaOK",
+      "title": "AI 找歌練唱工具",
+      "detail": "GitHub Pages 單頁練歌工具，串接 Supabase Auth/Database、YouTube IFrame API，並以 Gemini API 搭配 Google Search grounding 協助 AI 找歌。",
+      "url": "https://github.com/Johsok/Johsok_KalaOK",
+      "demo": "https://johsok.github.io/Johsok_KalaOK/"
+    },
+    {
+      "period": "2026/06",
+      "company": "ToDoList",
+      "title": "週間時段待辦系統",
+      "detail": "以週曆與時段格管理任務，支援 Supabase 自動同步、拖曳排序、顏色標籤、設定同步、單日/整週切換與手機 RWD。",
+      "url": "https://github.com/Johsok/ToDoList",
+      "demo": "https://johsok.github.io/ToDoList/"
+    },
+    {
+      "period": "2026/05",
+      "company": "Games",
+      "title": "網頁遊戲集合",
+      "detail": "多款網頁遊戲集合，包括象棋、五子棋、黑白棋、俄羅斯方塊、數獨、拼圖、大富翁與塔防等，以單頁 HTML/JS 實作互動與視覺效果。",
+      "url": "https://github.com/Johsok/Games",
+      "demo": "https://johsok.github.io/Games/"
+    },
+    {
+      "period": "2026/04",
+      "company": "MasterDong",
+      "title": "服務型網站與 AI Coding Rules",
+      "detail": "台中泥作工程服務網站，呈現 SEO 標題、服務分類、施工案例與聯絡資訊，並附 Cursor AI rules / Vibe Coding Directives。",
+      "url": "https://github.com/Johsok/MasterDong",
+      "demo": "https://johsok.github.io/MasterDong/"
+    }
+  ],
+  "cases": [
+    {
+      "title": "AI 協作開發流程",
+      "text": "以 Claude、ChatGPT、Gemini、Cursor、Codex 協助需求拆解、規格書撰寫、前端生成、重構與資料整理，將想法快速轉為可操作原型。"
+    },
+    {
+      "title": "資料型作品",
+      "text": "US-FinanceView 與 US-EconomyView 將 JSON 資料轉成可閱讀的財經/總經儀表板，強調篩選、表格化與深色資訊密度介面。"
+    },
+    {
+      "title": "Supabase 整合",
+      "text": "Johsok_KalaOK 與 ToDoList 皆以 Supabase 作為資料後端，處理登入、資料同步、使用者資料綁定與前端狀態更新。"
+    },
+    {
+      "title": "公開部署與作品集",
+      "text": "所有列入作品皆為 Johsok GitHub 公開 repo，並以 GitHub Pages 作為靜態部署目標；非公開作品未列入本履歷。"
+    }
+  ]
+}
