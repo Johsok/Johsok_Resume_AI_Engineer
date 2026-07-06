@@ -297,10 +297,7 @@ p { margin-bottom: 12px; }
   top: 50px;
   align-self: start;
   display: grid;
-  align-content: center;
-  align-items: center;
-  justify-items: center;
-  gap: 18px;
+  place-items: center;
   min-height: calc(100vh - 106px);
   height: calc(100vh - 106px);
   max-height: calc(100vh - 106px);
@@ -309,6 +306,15 @@ p { margin-bottom: 12px; }
   text-align: center;
   color: #fff;
   background: linear-gradient(160deg, var(--theme-accent), var(--theme-accent-3));
+}
+.brand-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  width: 100%;
+  min-height: 100%;
 }
 .brand .theme-photo {
   border: 6px solid rgba(255, 255, 255, .18);
@@ -1237,6 +1243,7 @@ p { margin-bottom: 12px; }
     grid-template-columns: repeat(2, 1fr);
   }
   .brand { min-height: auto; }
+  .brand-inner { min-height: 0; }
   .cards,
   .bento {
     display: block;
@@ -2182,8 +2189,10 @@ self.onmessage = async function (event) {
       <div class="resume-page">
         <section class="split">
           <aside class="brand">
-            ${photo(data)}
-            ${identity(data)}
+            <div class="brand-inner">
+              ${photo(data)}
+              ${identity(data)}
+            </div>
           </aside>
           <div class="split-content">
             ${metricLine(data)}
