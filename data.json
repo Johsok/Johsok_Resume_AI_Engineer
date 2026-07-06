@@ -2,7 +2,7 @@
   "profile": {
     "name": "董志昌",
     "role": "AI 工程師 / AI 應用開發者",
-    "tagline": "AI 協作開發、資料儀表板、Supabase 整合、GitHub Pages 部署"
+    "tagline": "AI 協作開發、資料儀表板、Supabase 整合、GitHub & Pages 部署"
   },
   "contact": {
     "phone": "0921-777-911",
@@ -61,7 +61,13 @@
     }
   ],
   "summary": [
-    "具備臨床與行政流程背景，近期以 Claude、ChatGPT、Gemini、Cursor、Codex 等 AI 工具進行前端網站、資料儀表板、Supabase 後端整合與 GitHub Pages 部署。公開作品涵蓋美股財報、總體經濟資料、練歌系統、週曆待辦、遊戲集合、施工服務網站與可編輯履歷模板，重點在將需求整理成規格、快速生成可用介面、串接資料來源並反覆調整到可部署。",
+    "以 Claude、ChatGPT、Gemini、Cursor、Codex 等 AI 工具進行前端網站、資料儀表板、Supabase 後端整合與 GitHub Pages 部署。公開作品涵蓋美股財報、總體經濟資料、練歌系統、週曆待辦、遊戲集合、施工服務網站與可編輯履歷模板，重點在將需求整理成規格、快速生成可用介面、串接資料來源並反覆調整到可部署。",
+    "整合 AI 開發相關文件，包括 Agent.md、Skill.md、SPEC.md(SDD)、PRD.md、MCP 等，建立標準化、可維護且一致的專案開發規範。將這些文件融合，其核心邏輯在於建立一條從「商業需求」到「程式執行」的清晰脈絡：",
+    "1、PRD (產品需求文件) 定義了「做什麼 (What) 與為什麼 (Why)」。",
+    "2、SDD (規格需求文件) 定義了「系統如何運作 (How)」。",
+    "3、Agent.md (智能體設定) 定義了「誰來執行邏輯 (Who)」。",
+    "4、Skill.md (技能與工具) 定義了「用什麼工具執行 (With what)」。",
+    "5、MCP (模型上下文協議) 定義了「在哪裡且透過什麼標準獲取資源 (Where / Context)」。",
     "本履歷先以公開 repo 作為作品集草稿；非公開作品未列入，後續可再依實際經歷補上團隊角色、模型使用方式、API 成本控管、測試流程與成效數字。"
   ],
   "clinicalSkills": [

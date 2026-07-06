@@ -3024,7 +3024,6 @@ self.onmessage = async function (event) {
 
   function jobLinks(item) {
     const links = [];
-    if (item.url) links.push(linkPill("GitHub", item.url));
     if (item.demo) links.push(linkPill("Demo", item.demo));
     return links.length ? `<div class="job-links">${links.join("")}</div>` : "";
   }
