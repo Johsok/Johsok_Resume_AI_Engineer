@@ -287,18 +287,26 @@ p { margin-bottom: 12px; }
   min-height: calc(100vh - 106px);
   display: grid;
   grid-template-columns: minmax(280px, 38%) 1fr;
+  align-items: start;
   background: var(--theme-paper);
   border: 1px solid var(--theme-line);
   box-shadow: var(--theme-shadow);
 }
 .brand {
+  position: sticky;
+  top: 50px;
+  align-self: start;
   display: grid;
   align-content: center;
   align-items: center;
-  justify-items: stretch;
+  justify-items: center;
   gap: 18px;
   min-height: calc(100vh - 106px);
+  height: calc(100vh - 106px);
+  max-height: calc(100vh - 106px);
+  overflow-y: auto;
   padding: 34px;
+  text-align: center;
   color: #fff;
   background: linear-gradient(160deg, var(--theme-accent), var(--theme-accent-3));
 }
@@ -1209,9 +1217,13 @@ p { margin-bottom: 12px; }
     grid-template-columns: 1fr;
   }
   .identity,
+  .brand,
   .intro,
   .swiss-rail {
     position: static;
+    height: auto;
+    max-height: none;
+    overflow: visible;
   }
   .metric-grid,
   .profile-line,
