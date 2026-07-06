@@ -133,7 +133,6 @@
       "company": "Johsok_Resume_PT",
       "title": "JavaScript / HTML Resume Template",
       "detail": "多風格互動履歷網站，使用 data.json 驅動內容、theme.js 切換版型、bg.js 動態背景，並提供 dataModify.html 進行資料編輯。",
-      "url": "https://github.com/Johsok/Johsok_Resume_PT",
       "demo": "https://johsok.github.io/Johsok_Resume_PT/"
     },
     {
@@ -141,7 +140,6 @@
       "company": "US-FinanceView",
       "title": "美股財報小助手",
       "detail": "深色主題財報資料儀表板，整合 earnings_data.json 與 holidays.json，提供美股財報日期、休市資訊與篩選查看。",
-      "url": "https://github.com/Johsok/US-FinanceView",
       "demo": "https://johsok.github.io/US-FinanceView/"
     },
     {
@@ -149,7 +147,6 @@
       "company": "US-EconomyView",
       "title": "美國總體經濟數據終端",
       "detail": "以 economy_data.json 建立總體經濟資料瀏覽介面，支援分類、篩選、變化指標閱讀與深色 terminal 視覺風格。",
-      "url": "https://github.com/Johsok/US-EconomyView",
       "demo": "https://johsok.github.io/US-EconomyView/"
     },
     {
@@ -157,7 +154,6 @@
       "company": "Johsok_KalaOK",
       "title": "AI 找歌練唱工具",
       "detail": "GitHub Pages 單頁練歌工具，串接 Supabase Auth/Database、YouTube IFrame API，並以 Gemini API 搭配 Google Search grounding 協助 AI 找歌。",
-      "url": "https://github.com/Johsok/Johsok_KalaOK",
       "demo": "https://johsok.github.io/Johsok_KalaOK/"
     },
     {
@@ -165,7 +161,6 @@
       "company": "ToDoList",
       "title": "週間時段待辦系統",
       "detail": "以週曆與時段格管理任務，支援 Supabase 自動同步、拖曳排序、顏色標籤、設定同步、單日/整週切換與手機 RWD。",
-      "url": "https://github.com/Johsok/ToDoList",
       "demo": "https://johsok.github.io/ToDoList/"
     },
     {
@@ -173,7 +168,6 @@
       "company": "Games",
       "title": "網頁遊戲集合",
       "detail": "多款網頁遊戲集合，包括象棋、五子棋、黑白棋、俄羅斯方塊、數獨、拼圖、大富翁與塔防等，以單頁 HTML/JS 實作互動與視覺效果。",
-      "url": "https://github.com/Johsok/Games",
       "demo": "https://johsok.github.io/Games/"
     },
     {
@@ -181,7 +175,6 @@
       "company": "MasterDong",
       "title": "服務型網站與 AI Coding Rules",
       "detail": "台中泥作工程服務網站，呈現 SEO 標題、服務分類、施工案例與聯絡資訊，並附 Cursor AI rules / Vibe Coding Directives。",
-      "url": "https://github.com/Johsok/MasterDong",
       "demo": "https://johsok.github.io/MasterDong/"
     }
   ],

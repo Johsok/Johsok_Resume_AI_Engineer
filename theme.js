@@ -170,15 +170,34 @@ p { margin-bottom: 12px; }
 }
 .job-links a {
   display: inline-flex;
+  align-items: center;
+  justify-content: center;
   max-width: 100%;
-  border: 1px solid var(--theme-line);
+  min-width: 84px;
+  border: 1.5px solid var(--theme-accent);
   border-radius: 999px;
-  padding: 4px 8px;
-  background: var(--theme-soft);
+  padding: 5px 12px;
+  background: rgba(255, 255, 255, .72);
   color: var(--theme-accent);
-  font-size: .78rem;
-  line-height: 1.35;
-  word-break: break-all;
+  font-size: .82rem;
+  font-weight: 800;
+  line-height: 1;
+  word-break: normal;
+  box-shadow: 0 8px 18px rgba(23, 35, 38, .10);
+  transition: transform .18s ease, box-shadow .18s ease, background-color .18s ease;
+}
+.job-links a:hover {
+  transform: translateY(-1px);
+  background: var(--theme-soft);
+  box-shadow: 0 12px 22px rgba(23, 35, 38, .14);
+}
+.job-links .demo-label {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  padding: 2px 9px;
 }
 .metric strong {
   display: block;
@@ -3052,11 +3071,7 @@ self.onmessage = async function (event) {
   function linkPill(label, url) {
     const cleanUrl = String(url || "").trim();
     if (!cleanUrl) return "";
-    return `<a href="${escapeAttr(cleanUrl)}" target="_blank" rel="noopener">${escapeHtml(label)}：${escapeHtml(shortUrl(cleanUrl))}</a>`;
-  }
-
-  function shortUrl(url) {
-    return String(url || "").replace(/^https?:\/\//, "").replace(/\/$/, "");
+    return `<a href="${escapeAttr(cleanUrl)}" target="_blank" rel="noopener" aria-label="${escapeAttr(label)}"><span class="demo-label">${escapeHtml(label)}</span></a>`;
   }
 
   function fact(label, content) {
